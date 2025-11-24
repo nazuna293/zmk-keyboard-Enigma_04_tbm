@@ -1,0 +1,11 @@
+config SHIELD_Enigma_04_tbm
+    def_bool $(shields_list_contains,Enigma_04_tbm)
+
+config SHIELD_Enigma_04_tbm_R
+    def_bool $(shields_list_contains,Enigma_04_tbm_R)
+
+config SHIELD_Enigma_04_tbm_L
+    def_bool $(shields_list_contains,Enigma_04_tbm_L)
+
+config SHIELD_Enigma_04_tbm_C
+    def_bool $(shields_list_contains,Enigma_04_tbm_C)
