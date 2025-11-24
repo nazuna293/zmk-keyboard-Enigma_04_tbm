@@ -1,0 +1,15 @@
+if SHIELD_Enigma_04_tbm
+	
+config ZMK_KEYBOARD_NAME
+    default "Enigma_04_tbm"
+
+config ZMK_USB
+	default y
+
+config ZMK_BLE
+    default y
+
+config NFCT_PINS_AS_GPIOS
+    default y
+
+endif
