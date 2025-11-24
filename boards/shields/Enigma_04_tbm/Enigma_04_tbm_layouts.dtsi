@@ -1,0 +1,89 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    layout_tbm0: layout_tbm0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Enigma_04";
+        transform = <&transform_tbm0>;
+        kscan = <&kscan_tbm0>;
+
+        keys = <
+            &key_physical_attrs 100 100  100   0 0 0 0 
+            &key_physical_attrs 100 100  200   0 0 0 0 
+            &key_physical_attrs 100 100  300   0 0 0 0 
+            &key_physical_attrs  70  70  415  15 0 0 0 
+            &key_physical_attrs 100 100    0 100 0 0 0
+            &key_physical_attrs 100 100  100 100 0 0 0 
+            &key_physical_attrs 100 100  200 100 0 0 0 
+            &key_physical_attrs 100 100  300 100 0 0 0 
+            &key_physical_attrs 100 100  400 100 0 0 0 
+            &key_physical_attrs 100 100    0 200 0 0 0 
+            &key_physical_attrs 100 100  100 200 0 0 0
+            &key_physical_attrs 100 100  200 200 0 0 0
+            &key_physical_attrs 100 100  300 200 0 0 0
+            &key_physical_attrs 100 100  400 200 0 0 0
+        >;
+    };
+
+    layout_tbm1: layout_tbm1 {
+        compatible = "zmk,physical-layout";
+        display-name = "Enigma_04";
+        transform = <&transform_tbm1>;
+        kscan = <&kscan_tbm0>;
+
+        keys = <
+            &key_physical_attrs 100 100  100   0 0 0 0 
+            &key_physical_attrs  70  70  415  15 0 0 0 
+            &key_physical_attrs 100 100    0 100 0 0 0
+            &key_physical_attrs 100 100  300 100 0 0 0 
+            &key_physical_attrs 100 100  400 100 0 0 0 
+            &key_physical_attrs 100 100    0 200 0 0 0 
+            &key_physical_attrs 100 100  100 200 0 0 0
+            &key_physical_attrs 100 100  200 200 0 0 0
+            &key_physical_attrs 100 100  300 200 0 0 0
+            &key_physical_attrs 100 100  400 200 0 0 0
+        >;
+    };
+
+    layout_tbm2: layout_tbm2 {
+        compatible = "zmk,physical-layout";
+        display-name = "Enigma_04";
+        transform = <&transform_tbm2>;
+        kscan = <&kscan_tbm0>;
+
+        keys = <
+            &key_physical_attrs  70  70   15  15 0 0 0 
+            &key_physical_attrs 100 100  100   0 0 0 0 
+            &key_physical_attrs 100 100  200   0 0 0 0 
+            &key_physical_attrs 100 100  300   0 0 0 0 
+            &key_physical_attrs 100 100    0 100 0 0 0
+            &key_physical_attrs 100 100  100 100 0 0 0 
+            &key_physical_attrs 100 100  200 100 0 0 0 
+            &key_physical_attrs 100 100  300 100 0 0 0 
+            &key_physical_attrs 100 100  400 100 0 0 0 
+            &key_physical_attrs 100 100    0 200 0 0 0 
+            &key_physical_attrs 100 100  100 200 0 0 0
+            &key_physical_attrs 100 100  200 200 0 0 0
+            &key_physical_attrs 100 100  300 200 0 0 0
+            &key_physical_attrs 100 100  400 200 0 0 0
+        >;
+    };
+
+    position_map {
+        compatible = "zmk,physical-layout-position-map";
+
+        map_tbm0: map_tbm0 {
+            physical-layout = <&layout_tbm0>;
+            positions = <0 5>;
+        };
+
+        map_tbm1: map_tbm1 {
+            physical-layout = <&layout_tbm1>;
+            positions = <0 3>;
+        };
+        map_tbm2: map_tbm2 {
+            physical-layout = <&layout_tbm2>;
+            positions = <0 5>;
+        };
+    };
+};
