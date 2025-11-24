@@ -1,0 +1,15 @@
+#include "Enigma_04_tbm.overlay"
+
+/ {
+    chosen {
+        zmk,physical-layout = &layout_tbm2;
+    };
+};
+
+&trackball {
+    status = "okay";
+};
+
+&encoder_0 {
+    status = "okay";
+};
