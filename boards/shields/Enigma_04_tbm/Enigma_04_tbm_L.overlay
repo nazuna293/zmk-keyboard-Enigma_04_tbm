@@ -1,0 +1,16 @@
+#include "Enigma_04_tbm.overlay"
+
+/ {
+    chosen {
+        zmk,physical-layout = &layout_tbm0;
+    };
+
+    trackball_listener: trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+    };
+};
+
+&encoder_0 {
+    status = "okay";
+};
