@@ -15,14 +15,14 @@ layers:
   setting:
   - ''
   - BT CLR
-  - '&bootloader'
+  - Boot
   - BT CLR ALL
   - {type: held}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
   to_ALT: ['', '', '', '', '', '', '', '', '', '']
 combos:
 - p: [0, 1]
