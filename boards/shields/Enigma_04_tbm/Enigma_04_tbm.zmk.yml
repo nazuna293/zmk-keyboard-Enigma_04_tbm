@@ -2,7 +2,7 @@ file_format: "1"
 id: Enigma_04
 name: Enigma_04
 type: shield
-url: "https://github.com/nazuna293/zmk-keyboard-Enigma_04"
+url: "https://github.com/nazuna293/zmk-keyboard-Enigma_04_tbm"
 requires:
   - seeeduino_xiao_ble
 features:
