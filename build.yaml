@@ -1,7 +1,7 @@
 include:
   - board: seeeduino_xiao_ble
     shield: Enigma_04_tbm Enigma_04_tbm_L rgbled_adapter
-    snippet: studio-rpc-usb-uart
+    snippet: zmk-usb-logging studio-rpc-usb-uart
     cmake-args: -DKEYMAP_FILE=../../config/Enigma_04_OYAYUBI_L.keymap
     artifact-name: Enigma_04_tbm_L
     
@@ -13,6 +13,6 @@ include:
 
   - board: seeeduino_xiao_ble
     shield: Enigma_04_tbm Enigma_04_tbm_C rgbled_adapter
-    snippet: studio-rpc-usb-uart
+    snippet: zmk-usb-logging studio-rpc-usb-uart
     cmake-args: -DKEYMAP_FILE=../../config/Enigma_04_HITOSASHI.keymap
     artifact-name: Enigma_04_tbm_HITOSASHI
